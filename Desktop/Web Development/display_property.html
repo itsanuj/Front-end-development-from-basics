@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Display Property</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        header {
+            border: 2px solid red;
+            margin: auto;
+            padding: 30px;
+            width: 1200px;
+        }
+
+        img {
+            width: 70px;
+            display: block;
+            margin: auto;
+        }
+
+        h3 {
+            /* display: block; */
+            margin: auto;
+            text-align: center;
+            /* box-sizing: border-box; */
+        }
+        
+        .heading{
+            border: 2px solid black;
+            padding : 4px;
+            margin : 0px;
+            box-sizing: border-box;
+            display: inline-block; /*to bring the block elements in one line */
+            width : 33%;
+        }
+        .container{
+            margin: auto;
+            margin-top: 10px;
+            width: 1200px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h3>Welcome to our website</h3>
+        <img src="https://avatars.githubusercontent.com/u/45781654?v=4" alt="uh-oh">
+    </header>
+    <div class="container">
+        <div class="heading">
+            <h4>heading</h4>
+            <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, cumque? Cumque praesentium
+                reiciendis iusto aperiam totam esse sed cum deserunt facilis assumenda fuga quod non, ea odio. Ex est
+                exercitationem fugit beatae, a quo!
+            </p>
+        </div>
+        <div class="heading">
+            <h4>heading</h4>
+            <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, cumque? Cumque praesentium
+                reiciendis iusto aperiam totam esse sed cum deserunt facilis assumenda fuga quod non, ea odio. Ex est
+                exercitationem fugit beatae, a quo!
+            </p>
+        </div>
+        <div class="heading">
+            <h4>heading</h4>
+            <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, cumque? Cumque praesentium
+                reiciendis iusto aperiam totam esse sed cum deserunt facilis assumenda fuga quod non, ea odio. Ex est
+                exercitationem fugit beatae, a quo!
+            </p>
+        </div>
+    </div>
+</body>
+
+</html>

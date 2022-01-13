@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation menu</title>
+    <style>
+        .navbar{
+            background-color: red;
+            border-radius: 7px;
+        }
+        .navbar ul{
+            /* to bring the background color */
+            overflow: auto;
+        }
+        .navbar li{
+            float: left;
+            list-style: none;
+            margin: 15px 3px;
+        }
+        .navbar li a{
+            color: white;
+            padding: 3px 3px;
+            text-decoration: none;
+        }
+        .navbar li a:hover{
+            color:black;
+        }
+        .searchBar{
+            float: right;
+            color: white;
+            padding: 10px 50px;
+        }
+        .navbar input{
+            padding: 3px;
+            border: solid red;
+            border-radius: 7px;
+        }
+        .navbar input:hover{
+            background-color: blanchedalmond;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li> <a href="#"> home </a></li>
+                <li> <a href="#"> admission </a></li>
+                <li> <a href="#"> courses </a></li>
+                <li> <a href="#"> about </a></li>
+                <div class="searchBar"><input type="text" name= "seach" placeholder="search this website"></div>
+            </ul>
+        </nav>
+    </header>
+</body>
+</html>
